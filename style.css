@@ -1,0 +1,175 @@
+*{
+    margin:0px;
+}
+/* head section */
+.indochino{
+font-size: 30px;
+font-weight: bold;
+}
+/* banner section */
+.banner-sec{
+      /* height: 550px; */
+      background-color:rgb(80, 148, 214);
+}
+.head2{
+    color: white;
+
+}
+.banner-para{
+    color: white;
+}
+.banner-button{
+    color: rgb(73, 159, 205);
+    border: none;
+}
+.banner-inbox2{
+    margin-top:100px;
+    min-height: 400px; 
+     /* overflow: auto;  */
+}
+.banner-inbox1{
+    min-height: 400px;
+    /* overflow: auto;  */
+}
+.abcd{
+    background-color: white;
+    height: 2px;
+    width: 300px;
+}
+/* suit section */
+.suit-inbox{
+    text-align: center;
+    margin: 30px;
+}
+.suit-button{
+    color:rgb(38, 145, 203) ;
+    border: none;
+}
+/* icon section */
+.icon-sec{
+    background-color:rgb(80, 148, 214) ;
+    /* height: 400px; */
+}
+.icon-inbox{
+    min-height: 400px;
+}
+.scale{
+    margin-top:80px;
+    /* padding-left: 135px; */
+}
+.scale-inbox{
+    text-align: center;
+}
+.iconbox{
+    text-align: center;
+}
+.suit-box{
+    text-align: center;
+}
+.line1{
+    background-color: white;
+    height: 3px;
+    width: 120px;
+    margin-left:145px ;
+    margin-top: 30px;
+}
+.line2{
+    background-color: white;
+    height: 3px;
+    width: 130px;
+    margin-left:145px ;
+    margin-top: 30px;
+}.line3{
+    background-color: white;
+    height: 3px;
+    width: 130px;
+    margin-left:145px ;
+    margin-top: 30px;
+}
+.icon-head1{
+    text-align: center;
+    color: white;
+}
+.icon-para1{
+    text-align: center;
+    margin-top: 30px;
+    color:white;
+}
+/*appointment section*/
+.appointment-sec{
+    background-color:rgb(59, 58, 54);
+}
+.appointment-inbox{
+    text-align: center;
+    margin: 30px;
+    color: white;
+
+}
+.appointment-button{
+    color:rgb(73, 159, 205) ;
+    border: none;
+}
+/* image section */
+
+.head3{
+    text-align: center;
+}
+.imagebox{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/* icon section */
+.icon-inbox2{
+    height:150px; 
+    text-align:center;
+    margin: 30px;
+}
+.fb{
+    color:rgb(153, 149, 149);
+    margin:10px;
+}
+.twitter{
+    color:rgb(153, 149, 149);
+    margin: 10px;
+}
+.insta{
+    color:rgb(153, 149, 149);
+    margin: 10px;
+}
+.icon-para{
+    color:rgb(153, 149, 149) ;
+}
+.line0{
+    height: 2px;
+    width: 150px;
+    background-color:rgb(219, 208, 208);
+    margin-left:550px ; 
+    margin-bottom: 30px;
+   text-align: center;
+}
+@media(max-width:991px){ 
+     .img1{
+        width: 100%;
+        height: auto;
+     }
+
+ } 
+ @media (max-width: 575px){
+    .banner-para,.head2{
+        text-align: center;
+    }
+    .buttonbox{
+        text-align: center;
+    }
+    .banner-inbox1,.banner-inbox2{
+        min-height: 250px;
+    }
+    .scale{
+        margin-top:20px
+    }
+ }
+ @media (max-width:767px){
+    .banner-inbox1,.banner-inbox2{
+        min-height: 250px;
+    }
+ }
